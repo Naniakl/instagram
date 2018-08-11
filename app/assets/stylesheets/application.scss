@@ -1,1 +1,147 @@
 @import "bootstrap";
+
+body {
+  background-color: #fafafa;
+  font-size: 14px;
+  color: #262626;
+}
+
+.core_sprite {
+  background-size: 405px 379px;
+  background-repeate: no-repeate;
+}
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0,0,0,.0975);
+  height: 77px;
+}
+
+.navbar-brand {
+  
+  background-image: url("m.png");
+  background-position: center; 
+  background-size: 100%;
+  height: 50px;
+  width:  150px;
+}
+
+.hide-text {
+  display: block;
+  overflow: hidden;
+  text-indent: 110%;
+  white-space: nowrap;
+}
+
+.explore {
+  background-image: url("q.png");
+  margin-top: 22px; 
+  background-size: 100%;
+  height: 45px;
+  width: 45px;
+}
+
+.notification {
+  background-image: url("n.png");
+  margin-top: 15px; 
+  background-size: 100%;
+  height: 60px;
+  width: 60px;
+}
+
+.profile{
+  background-image: url("s.jpeg");
+  margin-top: 25px; 
+  background-size: 100%;
+  height: 35px;
+  width: 35px;
+}
+
+.nav-item:not(:first-child) {
+  background-image: url("n.png");
+  margin-left: 30px;
+}
+
+.box {
+  background-colour: green;
+  boarder: 1px solid #e6e6e6;
+  boarder-radius: 1px;
+  padding: 170px 0;
+  margin: 0px 110px 40px;
+}
+
+.brand-name-img {
+  background-image: url("2.jpg");
+  height: 340px;
+  width: 500px;
+  
+}
+
+.landing-left {
+  .dummy-phone {
+    background-image: url("dummy-phone-2x.jpg");
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 445px 510px;
+    position: relative;
+    height: 618px;
+    margin-right: -35px;
+    margin-right: -15px;
+
+  }
+  
+  .screen-shot {
+    background-position: right 0;
+    position: absolute;
+    top: 99px;
+    right: 40px;
+    centre: 163px;
+    margin-top: -70px;
+
+
+    .item {
+      position: absolute;
+    }
+  }
+}
+
+
+.landing-right {
+  margin-top: 60px;
+  
+  .form-login {
+   height: 30px;
+   width: 300px;
+   margin-top: 0px;
+
+   form {
+    padding: 0 40px;
+
+    }
+
+
+    .btn-primary {
+      width: 100%;
+      line-height: 14px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    input {
+     boarder: 1px solid #efefef;
+    }
+
+    .form-check-label {
+      padding: 0;
+      font-size: 15px;
+      colour: #262626;
+    }
+  }
+  
+  .redirect-links {
+    width: 200px;
+    margin-top: -175px;
+    margin-right: 0px;
+    margin-left: 50px;
+
+  }
+}
